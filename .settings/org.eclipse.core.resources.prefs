@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//bin/Install_Service.bat=UTF-8
+encoding//bin/Service.bat=UTF-8
+encoding//bin/Start_Service.bat=UTF-8
+encoding//bin/Stop_Service.bat=UTF-8
+encoding//bin/Uninstall_Service.bat=UTF-8
+encoding//conf/wrapper.conf=UTF-8
+encoding//src/com/ciandt/MainWrapper.java=UTF-8
+encoding//src/com/ciandt/SomeService.java=UTF-8
+encoding//src/spring.xml=UTF-8

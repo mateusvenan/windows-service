@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: wrapper.jar org.springframework.beans-3.0.5.RELEASE.jar org.springframework.core-3.0.5.RELEASE.jar org.springframework.asm-3.0.5.RELEASE.jar org.springframework.expression-3.0.5.RELEASE.jar commons-logging-1.1.1.jar org.springframework.context-3.0.5.RELEASE.jar
+Main-Class: com.ciandt.MainWrapper
+

@@ -1,0 +1,30 @@
+STATUS | wrapper  | 2014/12/22 21:47:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 21:47:50 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 21:47:50 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 21:47:50 |     "java" -Djava.library.path="../lib" -classpath "../lib/commons-logging-1.1.1.jar;../lib/org.springframework.context-3.0.5.RELEASE.jar;../lib/org.springframework.beans-3.0.5.RELEASE.jar;../lib/org.springframework.core-3.0.5.RELEASE.jar;../lib/org.springframework.asm-3.0.5.RELEASE.jar;../lib/org.springframework.expression-3.0.5.RELEASE.jar;../lib/wrapper.jar;../lib/windows-service.jar" -Dwrapper.key="gVEAjnocw_wEcdcC" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 21:47:50 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2014/12/22 21:49:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 21:49:10 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 21:49:10 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 21:49:10 |     "java" -Djava.library.path="../lib" -classpath "../lib/commons-logging-1.1.1.jar;../lib/org.springframework.context-3.0.5.RELEASE.jar;../lib/org.springframework.beans-3.0.5.RELEASE.jar;../lib/org.springframework.core-3.0.5.RELEASE.jar;../lib/org.springframework.asm-3.0.5.RELEASE.jar;../lib/org.springframework.expression-3.0.5.RELEASE.jar;../lib/wrapper.jar;../lib/windows-service.jar" -Dwrapper.key="KU70ba2kb_xSBZxd" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 21:49:10 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2014/12/22 22:01:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 22:01:34 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 22:01:34 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 22:01:34 |     "java" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/windows-service.jar;../lib/org.springframework.beans-3.0.5.RELEASE.jar;../lib/org.springframework.core-3.0.5.RELEASE.jar;../lib/org.springframework.asm-3.0.5.RELEASE.jar;../lib/org.springframework.expression-3.0.5.RELEASE.jar;../lib/commons-logging-1.1.1.jar;../lib/org.springframework.context-3.0.5.RELEASE.jar" -Dwrapper.key="EfH8nGYAK5mXuPF7" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 22:01:34 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2014/12/22 22:04:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 22:04:04 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 22:04:04 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 22:04:04 |     "java" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/windows-service.jar" -Dwrapper.key="pB4QDxHHAIUne8pT" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 22:04:04 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2014/12/22 22:14:06 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 22:14:07 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 22:14:07 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 22:14:07 |     "java" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/windows-service.jar" -Dwrapper.key="VFLJIq_Njd0z7gDQ" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 22:14:07 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2014/12/22 22:14:52 | --> Wrapper Started as Console
+STATUS | wrapper  | 2014/12/22 22:14:52 | Launching a JVM...
+FATAL  | wrapper  | 2014/12/22 22:14:52 | Unable to execute Java command.  O sistema não pode encontrar o arquivo especificado. (0x2)
+FATAL  | wrapper  | 2014/12/22 22:14:52 |     "java" -Djava.library.path="../lib" -classpath "../lib/wrapper.jar;../lib/windows-service.jar;../lib/org.springframework.beans-3.0.5.RELEASE.jar;../lib/org.springframework.core-3.0.5.RELEASE.jar;../lib/org.springframework.asm-3.0.5.RELEASE.jar;../lib/org.springframework.expression-3.0.5.RELEASE.jar;../lib/commons-logging-1.1.1.jar;../lib/org.springframework.context-3.0.5.RELEASE.jar" -Dwrapper.key="KYh2nGCpmphbRgKS" -Dwrapper.port=32000 -Dwrapper.use_system_time="TRUE" -Dwrapper.version="3.1.2" -Dwrapper.native_library="wrapper" -Dwrapper.cpu.timeout="10" -Dwrapper.jvmid=1 com.ciandt.MainWrapper
+FATAL  | wrapper  | 2014/12/22 22:14:52 | Critical error: wait for JVM process failed

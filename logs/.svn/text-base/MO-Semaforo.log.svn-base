@@ -1,0 +1,2281 @@
+STATUS | wrapper  | 2009/12/18 11:42:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 11:42:59 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 11:43:00 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 11:43:00 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 11:43:00 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 11:43:00 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 11:43:00 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 
+INFO   | jvm 1    | 2009/12/18 11:43:00 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 
+INFO   | jvm 1    | 2009/12/18 11:43:00 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 11:43:00 | - Could not create Transport. Reason: java.io.IOException: Transport not scheme specified: []
+INFO   | jvm 1    | 2009/12/18 11:43:00 | javax.jms.JMSException: Could not create Transport. Reason: java.io.IOException: Transport not scheme specified: []
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:35)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.ActiveMQConnectionFactory.createTransport(ActiveMQConnectionFactory.java:242)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:255)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:227)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:175)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:40)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:32)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | Caused by: java.io.IOException: Transport not scheme specified: []
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.transport.TransportFactory.findTransportFactory(TransportFactory.java:195)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.transport.TransportFactory.connect(TransportFactory.java:79)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	at org.apache.activemq.ActiveMQConnectionFactory.createTransport(ActiveMQConnectionFactory.java:240)
+INFO   | jvm 1    | 2009/12/18 11:43:00 | 	... 9 more
+INFO   | jvm 1    | 2009/12/18 11:43:01 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/18 11:43:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 11:43:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 11:43:41 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 11:43:41 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 11:43:41 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 11:43:41 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 11:43:41 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 11:43:41 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 
+INFO   | jvm 1    | 2009/12/18 11:43:41 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 
+INFO   | jvm 1    | 2009/12/18 11:43:41 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 11:43:41 | - system.properties (O sistema não pode encontrar o arquivo especificado)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | java.io.FileNotFoundException: system.properties (O sistema não pode encontrar o arquivo especificado)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.io.FileInputStream.open(Native Method)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at br.com.simova.semaforo.utils.SystemProperties.loadProperties(SystemProperties.java:31)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at br.com.simova.semaforo.utils.SystemProperties.getProperty(SystemProperties.java:48)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:27)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 11:43:41 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 11:43:41 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 11:43:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:07:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:07:19 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:07:23 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:07:23 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:07:23 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:07:23 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:07:23 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 
+INFO   | jvm 1    | 2009/12/18 15:07:23 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 
+INFO   | jvm 1    | 2009/12/18 15:07:23 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:07:23 | - system.properties (O sistema não pode encontrar o arquivo especificado)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | java.io.FileNotFoundException: system.properties (O sistema não pode encontrar o arquivo especificado)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.io.FileInputStream.open(Native Method)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at br.com.simova.semaforo.utils.SystemProperties.loadProperties(SystemProperties.java:31)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at br.com.simova.semaforo.utils.SystemProperties.getProperty(SystemProperties.java:48)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:27)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:07:23 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:07:23 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:07:24 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:10:13 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:10:13 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:10:14 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:10:14 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:10:14 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:10:14 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:10:14 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 
+INFO   | jvm 1    | 2009/12/18 15:10:14 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 
+INFO   | jvm 1    | 2009/12/18 15:10:14 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:10:14 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:10:14 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:10:14 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:10:14 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:10:14 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:10:15 | <-- Wrapper Stopped
+FATAL  | wrapper  | 2009/12/18 15:11:19 | OpenService failed - O serviço especificado não existe como serviço instalado. (0x424)
+STATUS | wrapper  | 2009/12/18 15:11:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:11:24 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:11:25 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:11:25 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:11:25 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:11:25 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:11:25 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 
+INFO   | jvm 1    | 2009/12/18 15:11:25 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 
+INFO   | jvm 1    | 2009/12/18 15:11:25 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:11:25 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:11:25 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:11:25 | - 
+INFO   | jvm 1    | 2009/12/18 15:11:25 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:11:25 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:11:25 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:11:26 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:12:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:12:01 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:12:02 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:12:02 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:12:02 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:12:02 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:12:02 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 
+INFO   | jvm 1    | 2009/12/18 15:12:02 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 
+INFO   | jvm 1    | 2009/12/18 15:12:02 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:12:02 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:12:02 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:12:02 | - 
+INFO   | jvm 1    | 2009/12/18 15:12:02 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:12:02 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:12:02 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:12:03 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:12:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:12:42 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:12:42 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:12:42 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:12:42 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:12:42 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:12:42 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 
+INFO   | jvm 1    | 2009/12/18 15:12:42 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 
+INFO   | jvm 1    | 2009/12/18 15:12:42 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:12:42 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:12:42 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:12:42 | - .
+INFO   | jvm 1    | 2009/12/18 15:12:42 | - W:\nova_workspace\SemaforoAG\bin\.
+INFO   | jvm 1    | 2009/12/18 15:12:42 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:12:42 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:12:42 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:12:43 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:13:16 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:13:16 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:13:16 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:13:16 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:13:16 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:13:16 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:13:16 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 
+INFO   | jvm 1    | 2009/12/18 15:13:16 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 
+INFO   | jvm 1    | 2009/12/18 15:13:16 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:13:16 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:13:16 | - ..\conf\system.properties
+INFO   | jvm 1    | 2009/12/18 15:13:16 | - .
+INFO   | jvm 1    | 2009/12/18 15:13:16 | - W:\nova_workspace\SemaforoAG\bin\.
+INFO   | jvm 1    | 2009/12/18 15:13:16 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:13:16 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:13:16 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:13:17 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:14:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:14:31 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:14:32 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:14:32 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:14:32 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:14:32 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:14:32 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 
+INFO   | jvm 1    | 2009/12/18 15:14:32 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - .
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - W:\nova_workspace\SemaforoAG\bin\.
+INFO   | jvm 1    | 2009/12/18 15:14:32 | - conf\system.properties (O sistema não pode encontrar o caminho especificado)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | java.io.FileNotFoundException: conf\system.properties (O sistema não pode encontrar o caminho especificado)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.io.FileInputStream.open(Native Method)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at br.com.simova.semaforo.utils.SystemProperties.loadProperties(SystemProperties.java:37)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at br.com.simova.semaforo.utils.SystemProperties.getProperty(SystemProperties.java:54)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:27)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:14:32 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:14:32 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:14:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:14:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:14:41 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:14:41 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:14:41 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:14:41 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:14:41 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:14:41 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 
+INFO   | jvm 1    | 2009/12/18 15:14:41 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - .
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - W:\nova_workspace\SemaforoAG\bin\.
+INFO   | jvm 1    | 2009/12/18 15:14:41 | - conf\system.properties (O sistema não pode encontrar o caminho especificado)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | java.io.FileNotFoundException: conf\system.properties (O sistema não pode encontrar o caminho especificado)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.io.FileInputStream.open(Native Method)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at br.com.simova.semaforo.utils.SystemProperties.loadProperties(SystemProperties.java:37)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at br.com.simova.semaforo.utils.SystemProperties.getProperty(SystemProperties.java:54)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:27)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:14:41 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:14:41 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:14:42 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:14:42 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:14:42 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:14:42 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:14:42 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:15:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:15:32 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:15:32 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:15:32 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:15:32 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:15:32 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:15:32 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 
+INFO   | jvm 1    | 2009/12/18 15:15:32 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 
+INFO   | jvm 1    | 2009/12/18 15:15:32 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:15:32 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:15:32 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:15:32 | - .
+INFO   | jvm 1    | 2009/12/18 15:15:32 | - W:\nova_workspace\SemaforoAG\bin\.
+INFO   | jvm 1    | 2009/12/18 15:15:32 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:15:32 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:33)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:15:32 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:15:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:17:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:17:28 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:17:29 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:17:29 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:17:29 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:17:29 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:17:29 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 
+INFO   | jvm 1    | 2009/12/18 15:17:29 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - 
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - 
+INFO   | jvm 1    | 2009/12/18 15:17:29 | - 
+INFO   | jvm 1    | 2009/12/18 15:17:29 | Error in WrapperListener.start callback.  java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:17:29 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at java.net.URI$Parser.parse(URI.java:3010)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at java.net.URI.<init>(URI.java:578)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at org.apache.activemq.ActiveMQConnectionFactory.createURI(ActiveMQConnectionFactory.java:165)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at org.apache.activemq.ActiveMQConnectionFactory.<init>(ActiveMQConnectionFactory.java:128)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at br.com.simova.semaforo.jms.util.JMSConnector.<init>(JMSConnector.java:39)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at br.com.simova.semaforo.Semaforo.start(Semaforo.java:35)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at org.tanukisoftware.wrapper.WrapperManager.startInner(WrapperManager.java:1785)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at org.tanukisoftware.wrapper.WrapperManager.handleSocket(WrapperManager.java:2384)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at org.tanukisoftware.wrapper.WrapperManager.run(WrapperManager.java:2696)
+INFO   | jvm 1    | 2009/12/18 15:17:29 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/18 15:17:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 15:19:26 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 15:19:26 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 15:19:27 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 15:19:27 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 15:19:27 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 15:19:27 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 15:19:27 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 15:19:27 | 
+INFO   | jvm 1    | 2009/12/18 15:19:27 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 15:19:27 | 
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - failover://tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - mo.data
+INFO   | jvm 1    | 2009/12/18 15:19:27 | - mo.reply
+INFO   | jvm 1    | 2009/12/18 15:19:28 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 15:19:28 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/18 15:19:28 | - JMS - Listener registrado
+STATUS | wrapper  | 2009/12/18 15:21:52 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/18 15:21:52 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/18 15:21:53 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/18 15:21:53 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/18 15:21:53 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 16:19:22 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 16:19:23 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 16:19:23 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 16:19:23 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 16:19:23 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 16:19:23 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 16:19:23 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 16:19:23 | 
+INFO   | jvm 1    | 2009/12/18 16:19:23 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 16:19:23 | 
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - failover://tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - mo.data
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - mo.reply
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - id: 3
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:24 | - text: READ
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - id: 3
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - text: FAIL
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - id: 4
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - text: READ
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - id: 4
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - text: FAIL
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - id: 5
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - text: READ
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - id: 5
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - idObra: null
+INFO   | jvm 1    | 2009/12/18 16:19:25 | - text: FAIL
+STATUS | wrapper  | 2009/12/18 16:20:26 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/18 16:20:26 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/18 16:20:26 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/18 16:20:26 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/18 16:20:27 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/18 16:20:27 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 16:20:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 16:20:33 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 16:20:34 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 16:20:34 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 16:20:34 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 16:20:34 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 16:20:34 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 16:20:34 | 
+INFO   | jvm 1    | 2009/12/18 16:20:34 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 16:20:34 | 
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/18 16:20:34 | - JMS - Listener registrado
+STATUS | wrapper  | 2009/12/18 16:33:31 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2009/12/18 16:33:31 | CTRL-C trapped.  Forcing immediate shutdown.
+INFO   | jvm 1    | 2009/12/18 16:33:31 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/18 16:33:31 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/18 16:33:31 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/18 16:33:31 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/18 16:33:32 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/18 16:52:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/18 16:52:42 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/18 16:52:45 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/18 16:52:45 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/18 16:52:45 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/18 16:52:45 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/18 16:52:45 |           and is not supported.
+INFO   | jvm 1    | 2009/12/18 16:52:45 | 
+INFO   | jvm 1    | 2009/12/18 16:52:45 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/18 16:52:45 | 
+INFO   | jvm 1    | 2009/12/18 16:52:45 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/18 16:52:45 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/18 16:52:45 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/18 16:52:46 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/18 16:52:46 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/18 16:52:46 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/18 16:59:03 | - id: 6
+INFO   | jvm 1    | 2009/12/18 16:59:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 16:59:03 | - text: READ
+INFO   | jvm 1    | 2009/12/18 16:59:04 | - id: 6
+INFO   | jvm 1    | 2009/12/18 16:59:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 16:59:04 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/18 16:59:38 | - id: 7
+INFO   | jvm 1    | 2009/12/18 16:59:38 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 16:59:38 | - text: READ
+INFO   | jvm 1    | 2009/12/18 16:59:39 | - id: 7
+INFO   | jvm 1    | 2009/12/18 16:59:39 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 16:59:39 | - text: FAIL
+INFO   | jvm 1    | 2009/12/18 17:02:40 | - id: 8
+INFO   | jvm 1    | 2009/12/18 17:02:40 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:40 | - text: READ
+INFO   | jvm 1    | 2009/12/18 17:02:41 | - id: 8
+INFO   | jvm 1    | 2009/12/18 17:02:41 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:41 | - text: FAIL
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - id: 9
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - text: READ
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - id: 9
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - id: 10
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:46 | - text: READ
+INFO   | jvm 1    | 2009/12/18 17:02:47 | - id: 10
+INFO   | jvm 1    | 2009/12/18 17:02:47 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:02:47 | - text: FAIL
+INFO   | jvm 1    | 2009/12/18 17:03:51 | - id: 11
+INFO   | jvm 1    | 2009/12/18 17:03:51 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:03:51 | - text: READ
+INFO   | jvm 1    | 2009/12/18 17:03:52 | - id: 11
+INFO   | jvm 1    | 2009/12/18 17:03:52 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:03:52 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - id: 12
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - text: READ
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - id: 12
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/18 17:12:04 | - text: SUCCESS
+STATUS | wrapper  | 2009/12/21 09:05:16 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 09:05:17 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 09:05:19 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 09:05:19 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 09:05:19 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 09:05:19 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 09:05:19 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 09:05:19 | 
+INFO   | jvm 1    | 2009/12/21 09:05:19 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 09:05:19 | 
+INFO   | jvm 1    | 2009/12/21 09:05:19 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 09:05:19 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 09:05:19 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:05:48 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:05:48 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:05:52 | Launching a JVM...
+INFO   | jvm 2    | 2009/12/21 09:05:53 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 2    | 2009/12/21 09:05:53 |           while the version of the native library is "3.2.1".
+INFO   | jvm 2    | 2009/12/21 09:05:53 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 2    | 2009/12/21 09:05:53 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 2    | 2009/12/21 09:05:53 |           and is not supported.
+INFO   | jvm 2    | 2009/12/21 09:05:53 | 
+INFO   | jvm 2    | 2009/12/21 09:05:53 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2009/12/21 09:05:53 | 
+INFO   | jvm 2    | 2009/12/21 09:05:53 | - Semáforo iniciado
+INFO   | jvm 2    | 2009/12/21 09:05:53 | - Carregando arquivo de configurações.
+INFO   | jvm 2    | 2009/12/21 09:05:53 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:06:22 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:06:22 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:06:27 | Launching a JVM...
+INFO   | jvm 3    | 2009/12/21 09:06:27 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 3    | 2009/12/21 09:06:27 |           while the version of the native library is "3.2.1".
+INFO   | jvm 3    | 2009/12/21 09:06:27 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 3    | 2009/12/21 09:06:27 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 3    | 2009/12/21 09:06:27 |           and is not supported.
+INFO   | jvm 3    | 2009/12/21 09:06:27 | 
+INFO   | jvm 3    | 2009/12/21 09:06:27 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 3    | 2009/12/21 09:06:27 | 
+INFO   | jvm 3    | 2009/12/21 09:06:27 | - Semáforo iniciado
+INFO   | jvm 3    | 2009/12/21 09:06:27 | - Carregando arquivo de configurações.
+INFO   | jvm 3    | 2009/12/21 09:06:27 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:06:56 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:06:56 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:07:01 | Launching a JVM...
+INFO   | jvm 4    | 2009/12/21 09:07:01 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 4    | 2009/12/21 09:07:01 |           while the version of the native library is "3.2.1".
+INFO   | jvm 4    | 2009/12/21 09:07:01 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 4    | 2009/12/21 09:07:01 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 4    | 2009/12/21 09:07:01 |           and is not supported.
+INFO   | jvm 4    | 2009/12/21 09:07:01 | 
+INFO   | jvm 4    | 2009/12/21 09:07:01 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 4    | 2009/12/21 09:07:01 | 
+INFO   | jvm 4    | 2009/12/21 09:07:01 | - Semáforo iniciado
+INFO   | jvm 4    | 2009/12/21 09:07:01 | - Carregando arquivo de configurações.
+INFO   | jvm 4    | 2009/12/21 09:07:01 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:07:30 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:07:30 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:07:35 | Launching a JVM...
+INFO   | jvm 5    | 2009/12/21 09:07:36 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 5    | 2009/12/21 09:07:36 |           while the version of the native library is "3.2.1".
+INFO   | jvm 5    | 2009/12/21 09:07:36 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 5    | 2009/12/21 09:07:36 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 5    | 2009/12/21 09:07:36 |           and is not supported.
+INFO   | jvm 5    | 2009/12/21 09:07:36 | 
+INFO   | jvm 5    | 2009/12/21 09:07:36 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 5    | 2009/12/21 09:07:36 | 
+INFO   | jvm 5    | 2009/12/21 09:07:36 | - Semáforo iniciado
+INFO   | jvm 5    | 2009/12/21 09:07:36 | - Carregando arquivo de configurações.
+INFO   | jvm 5    | 2009/12/21 09:07:36 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:08:05 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:08:05 | JVM did not exit on request, terminated
+FATAL  | wrapper  | 2009/12/21 09:08:06 | There were 5 failed launches in a row, each lasting less than 300 seconds.  Giving up.
+FATAL  | wrapper  | 2009/12/21 09:08:06 |   There may be a configuration problem: please check the logs.
+STATUS | wrapper  | 2009/12/21 09:08:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 09:08:27 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 09:08:27 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 09:08:27 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 09:08:27 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 09:08:27 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 09:08:27 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 09:08:27 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 09:08:27 | 
+INFO   | jvm 1    | 2009/12/21 09:08:27 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 09:08:27 | 
+INFO   | jvm 1    | 2009/12/21 09:08:28 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 09:08:28 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 09:08:28 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:08:57 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:08:57 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:09:01 | Launching a JVM...
+INFO   | jvm 2    | 2009/12/21 09:09:02 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 2    | 2009/12/21 09:09:02 |           while the version of the native library is "3.2.1".
+INFO   | jvm 2    | 2009/12/21 09:09:02 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 2    | 2009/12/21 09:09:02 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 2    | 2009/12/21 09:09:02 |           and is not supported.
+INFO   | jvm 2    | 2009/12/21 09:09:02 | 
+INFO   | jvm 2    | 2009/12/21 09:09:02 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2009/12/21 09:09:02 | 
+INFO   | jvm 2    | 2009/12/21 09:09:02 | - Semáforo iniciado
+INFO   | jvm 2    | 2009/12/21 09:09:02 | - Carregando arquivo de configurações.
+INFO   | jvm 2    | 2009/12/21 09:09:02 | - ../conf/system.properties
+STATUS | wrapper  | 2009/12/21 09:09:04 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2009/12/21 09:09:06 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 09:09:06 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:09:06 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 09:09:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 09:17:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 09:17:28 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 09:17:29 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 09:17:29 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 09:17:29 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 09:17:29 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 09:17:29 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 09:17:29 | 
+INFO   | jvm 1    | 2009/12/21 09:17:29 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 09:17:29 | 
+INFO   | jvm 1    | 2009/12/21 09:17:29 | log4j:WARN No appenders could be found for logger (br.com.simova.semaforo.Semaforo).
+INFO   | jvm 1    | 2009/12/21 09:17:29 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2009/12/21 09:17:29 | Exception in thread "Thread-0" java.lang.NoClassDefFoundError: br/com/simova/semaforo/utils/SystemProperties
+INFO   | jvm 1    | 2009/12/21 09:17:29 | 	at br.com.simova.semaforo.Semaforo$1.run(Semaforo.java:30)
+STATUS | wrapper  | 2009/12/21 09:17:34 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 09:17:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 09:17:43 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 09:17:44 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 09:17:44 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 09:17:44 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 09:17:44 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 09:17:44 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 09:17:44 | 
+INFO   | jvm 1    | 2009/12/21 09:17:44 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 09:17:44 | 
+INFO   | jvm 1    | 2009/12/21 09:17:44 | log4j:WARN No appenders could be found for logger (br.com.simova.semaforo.Semaforo).
+INFO   | jvm 1    | 2009/12/21 09:17:44 | log4j:WARN Please initialize the log4j system properly.
+INFO   | jvm 1    | 2009/12/21 09:17:44 | Exception in thread "Thread-0" java.lang.NoClassDefFoundError: br/com/simova/semaforo/utils/SystemProperties
+INFO   | jvm 1    | 2009/12/21 09:17:44 | 	at br.com.simova.semaforo.Semaforo$1.run(Semaforo.java:30)
+STATUS | wrapper  | 2009/12/21 09:19:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 09:19:02 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 09:19:02 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 09:19:02 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 09:19:02 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 09:19:02 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 09:19:02 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 09:19:02 | 
+INFO   | jvm 1    | 2009/12/21 09:19:02 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 09:19:02 | 
+INFO   | jvm 1    | 2009/12/21 09:19:02 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 09:19:02 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 09:19:02 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:19:31 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:19:31 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:19:36 | Launching a JVM...
+INFO   | jvm 2    | 2009/12/21 09:19:37 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 2    | 2009/12/21 09:19:37 |           while the version of the native library is "3.2.1".
+INFO   | jvm 2    | 2009/12/21 09:19:37 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 2    | 2009/12/21 09:19:37 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 2    | 2009/12/21 09:19:37 |           and is not supported.
+INFO   | jvm 2    | 2009/12/21 09:19:37 | 
+INFO   | jvm 2    | 2009/12/21 09:19:37 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2009/12/21 09:19:37 | 
+INFO   | jvm 2    | 2009/12/21 09:19:37 | - Semáforo iniciado
+INFO   | jvm 2    | 2009/12/21 09:19:37 | - Carregando arquivo de configurações.
+INFO   | jvm 2    | 2009/12/21 09:19:37 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:20:06 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:20:06 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:20:11 | Launching a JVM...
+INFO   | jvm 3    | 2009/12/21 09:20:11 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 3    | 2009/12/21 09:20:11 |           while the version of the native library is "3.2.1".
+INFO   | jvm 3    | 2009/12/21 09:20:11 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 3    | 2009/12/21 09:20:11 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 3    | 2009/12/21 09:20:11 |           and is not supported.
+INFO   | jvm 3    | 2009/12/21 09:20:11 | 
+INFO   | jvm 3    | 2009/12/21 09:20:11 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 3    | 2009/12/21 09:20:11 | 
+INFO   | jvm 3    | 2009/12/21 09:20:11 | - Semáforo iniciado
+INFO   | jvm 3    | 2009/12/21 09:20:11 | - Carregando arquivo de configurações.
+INFO   | jvm 3    | 2009/12/21 09:20:11 | - ../conf/system.properties
+ERROR  | wrapper  | 2009/12/21 09:20:40 | Startup failed: Timed out waiting for signal from JVM.
+ERROR  | wrapper  | 2009/12/21 09:20:40 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 09:20:45 | Launching a JVM...
+INFO   | jvm 4    | 2009/12/21 09:20:45 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 4    | 2009/12/21 09:20:45 |           while the version of the native library is "3.2.1".
+INFO   | jvm 4    | 2009/12/21 09:20:45 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 4    | 2009/12/21 09:20:45 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 4    | 2009/12/21 09:20:45 |           and is not supported.
+INFO   | jvm 4    | 2009/12/21 09:20:45 | 
+INFO   | jvm 4    | 2009/12/21 09:20:45 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 4    | 2009/12/21 09:20:45 | 
+INFO   | jvm 4    | 2009/12/21 09:20:45 | - Semáforo iniciado
+INFO   | jvm 4    | 2009/12/21 09:20:45 | - Carregando arquivo de configurações.
+INFO   | jvm 4    | 2009/12/21 09:20:45 | - ../conf/system.properties
+INFO   | jvm 4    | 2009/12/21 09:21:06 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 4    | 2009/12/21 09:21:07 | - JMS - Conexão realizada
+INFO   | jvm 4    | 2009/12/21 09:21:07 | - JMS - Listener registrado
+INFO   | jvm 4    | 2009/12/21 09:24:59 | - id: 13
+INFO   | jvm 4    | 2009/12/21 09:24:59 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:24:59 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:25:00 | - id: 13
+INFO   | jvm 4    | 2009/12/21 09:25:00 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:25:00 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:26:37 | - id: 14
+INFO   | jvm 4    | 2009/12/21 09:26:37 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:26:37 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:26:38 | - id: 14
+INFO   | jvm 4    | 2009/12/21 09:26:38 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:26:38 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - id: 15
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - id: 15
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:28:08 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:28:26 | - id: 16
+INFO   | jvm 4    | 2009/12/21 09:28:26 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:28:26 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:28:27 | - id: 16
+INFO   | jvm 4    | 2009/12/21 09:28:27 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:28:27 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:29:51 | - id: 17
+INFO   | jvm 4    | 2009/12/21 09:29:51 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:29:51 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - id: 17
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - id: 18
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - text: READ
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - id: 18
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - obra: 39
+INFO   | jvm 4    | 2009/12/21 09:29:52 | - text: SUCCESS
+INFO   | jvm 4    | 2009/12/21 09:48:17 | - Transport failed to tcp://localhost:61616 , attempting to automatically reconnect due to: java.io.EOFException
+INFO   | jvm 4    | 2009/12/21 09:48:20 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 09:48:21 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:04:16 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:04:16 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:04:17 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:04:17 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:04:17 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:04:17 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:04:17 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:04:17 | 
+INFO   | jvm 1    | 2009/12/21 11:04:17 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:04:17 | 
+INFO   | jvm 1    | 2009/12/21 11:04:17 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:04:17 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:04:17 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:06:13 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:06:13 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:06:13 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 11:06:45 | - Transport failed to tcp://localhost:61616 , attempting to automatically reconnect due to: java.io.EOFException
+INFO   | jvm 1    | 2009/12/21 11:06:49 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 11:06:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:22:24 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:22:25 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:22:25 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:22:25 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:22:25 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:22:25 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:22:25 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:22:25 | 
+INFO   | jvm 1    | 2009/12/21 11:22:25 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:22:25 | 
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:22:25 | - JMS - Listener registrado
+STATUS | wrapper  | 2009/12/21 11:22:49 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 11:22:49 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 11:22:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:30:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:30:42 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:30:43 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:30:43 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:30:43 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:30:43 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:30:43 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:30:43 | 
+INFO   | jvm 1    | 2009/12/21 11:30:43 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:30:43 | 
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - id: 19
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:30:43 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:30:44 | - id: 19
+INFO   | jvm 1    | 2009/12/21 11:30:44 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:30:44 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:39:49 | - id: 20
+INFO   | jvm 1    | 2009/12/21 11:39:49 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:39:49 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:42:47 | - id: 20
+INFO   | jvm 1    | 2009/12/21 11:42:47 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:42:47 | - text: SUCCESS
+STATUS | wrapper  | 2009/12/21 11:44:14 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 11:44:14 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 11:44:15 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:45:36 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:45:36 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:45:37 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:45:37 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:45:37 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:45:37 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:45:37 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:45:37 | 
+INFO   | jvm 1    | 2009/12/21 11:45:37 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:45:37 | 
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - id: 21
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:45:37 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - id: 21
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - id: 22
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - id: 22
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:45:38 | - text: SUCCESS
+STATUS | wrapper  | 2009/12/21 11:51:57 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 11:51:57 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 11:51:57 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 11:51:57 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 11:51:58 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:52:09 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:52:09 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:52:10 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:52:10 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:52:10 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:52:10 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:52:10 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:52:10 | 
+INFO   | jvm 1    | 2009/12/21 11:52:10 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:52:10 | 
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:52:10 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 11:53:34 | - id: 23
+INFO   | jvm 1    | 2009/12/21 11:53:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:53:34 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:53:35 | - Invalid column name 'data_lido'.
+INFO   | jvm 1    | 2009/12/21 11:53:35 | com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'data_lido'.
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(Unknown Source)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at br.com.simova.semaforo.dao.BufferDAO.updateStatusBuffer(BufferDAO.java:32)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:42)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 11:53:35 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/21 11:54:12 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 11:54:12 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 11:54:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 11:54:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 11:54:29 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 11:54:29 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 11:54:29 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 11:54:29 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 11:54:29 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 11:54:29 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 11:54:29 | 
+INFO   | jvm 1    | 2009/12/21 11:54:29 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 11:54:29 | 
+INFO   | jvm 1    | 2009/12/21 11:54:29 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 11:54:29 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 11:54:29 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 11:54:30 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 11:54:30 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 11:54:30 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 11:57:00 | - id: 23
+INFO   | jvm 1    | 2009/12/21 11:57:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - id: 24
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - id: 24
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - id: 25
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - id: 25
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - id: 26
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:01 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - id: 26
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - id: 27
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - id: 27
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - id: 28
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - id: 28
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:02 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 29
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 29
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 30
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 30
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 31
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 31
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - id: 32
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:03 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - id: 32
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - id: 33
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - id: 33
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - id: 34
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:04 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - id: 34
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - id: 35
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - id: 35
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - id: 36
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:05 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - id: 36
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - id: 37
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:06 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 37
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 38
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 38
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - id: 40
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:07 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 40
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 41
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 41
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 42
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 42
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - id: 43
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - id: 43
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - id: 44
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:09 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - id: 44
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - id: 45
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - id: 45
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:57:10 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - id: 46
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - id: 46
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:58:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:58:01 | - id: 47
+INFO   | jvm 1    | 2009/12/21 11:58:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:58:01 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:58:02 | - id: 47
+INFO   | jvm 1    | 2009/12/21 11:58:02 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:58:02 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - id: 48
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - id: 48
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - id: 49
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - id: 49
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:23 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - id: 50
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - id: 50
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:32 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - id: 51
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - id: 51
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:45 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - id: 52
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - id: 52
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 11:59:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - id: 53
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - id: 53
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:10 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:00:30 | - id: 54
+INFO   | jvm 1    | 2009/12/21 12:00:30 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:30 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:00:31 | - id: 54
+INFO   | jvm 1    | 2009/12/21 12:00:31 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:31 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - id: 55
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - id: 55
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:00:50 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - id: 56
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - id: 56
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:06 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - id: 57
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - id: 57
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:15 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:01:47 | - id: 58
+INFO   | jvm 1    | 2009/12/21 12:01:47 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:47 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:01:48 | - id: 58
+INFO   | jvm 1    | 2009/12/21 12:01:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:01:48 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - id: 59
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - id: 59
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:01 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - id: 60
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - id: 60
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:10 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:02:25 | - id: 61
+INFO   | jvm 1    | 2009/12/21 12:02:25 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:25 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:02:26 | - id: 61
+INFO   | jvm 1    | 2009/12/21 12:02:26 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:26 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:02:35 | - id: 62
+INFO   | jvm 1    | 2009/12/21 12:02:35 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:35 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:02:36 | - id: 62
+INFO   | jvm 1    | 2009/12/21 12:02:36 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:36 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:02:52 | - id: 63
+INFO   | jvm 1    | 2009/12/21 12:02:52 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:52 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:02:53 | - id: 63
+INFO   | jvm 1    | 2009/12/21 12:02:53 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:02:53 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - id: 64
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - id: 64
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:11 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - id: 65
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - id: 65
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:21 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:03:39 | - id: 66
+INFO   | jvm 1    | 2009/12/21 12:03:39 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:39 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:03:40 | - id: 66
+INFO   | jvm 1    | 2009/12/21 12:03:40 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:40 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - id: 67
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - id: 67
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:03:52 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - id: 68
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - id: 68
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:14 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:04:25 | - id: 69
+INFO   | jvm 1    | 2009/12/21 12:04:25 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:25 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:04:26 | - id: 69
+INFO   | jvm 1    | 2009/12/21 12:04:26 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:26 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - id: 70
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - id: 70
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:35 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - id: 71
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - id: 71
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:04:48 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - id: 72
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - id: 72
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:05:10 | - id: 73
+INFO   | jvm 1    | 2009/12/21 12:05:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:05:11 | - id: 73
+INFO   | jvm 1    | 2009/12/21 12:05:11 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:11 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - id: 74
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - id: 74
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:21 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:05:34 | - id: 75
+INFO   | jvm 1    | 2009/12/21 12:05:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:34 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:05:35 | - id: 75
+INFO   | jvm 1    | 2009/12/21 12:05:35 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:35 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - id: 76
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - id: 76
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:05:45 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - id: 77
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - id: 77
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - id: 78
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - id: 78
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:10 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - id: 79
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - id: 79
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:22 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:06:34 | - id: 80
+INFO   | jvm 1    | 2009/12/21 12:06:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:34 | - text: READ
+INFO   | jvm 1    | 2009/12/21 12:06:35 | - id: 80
+INFO   | jvm 1    | 2009/12/21 12:06:35 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 12:06:35 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 12:10:26 | - Transport failed to tcp://localhost:61616 , attempting to automatically reconnect due to: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2009/12/21 12:10:29 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 12:10:30 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 15:10:13 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 15:10:13 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 15:10:15 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 15:10:15 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 15:10:15 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 15:10:15 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 15:10:15 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 15:10:15 | 
+INFO   | jvm 1    | 2009/12/21 15:10:15 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 15:10:15 | 
+INFO   | jvm 1    | 2009/12/21 15:10:15 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 15:10:15 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 15:10:15 | - ../conf/system.properties
+STATUS | wrapper  | 2009/12/21 15:37:49 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 15:37:49 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 15:37:50 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 15:37:50 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 15:37:50 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 15:37:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 17:15:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:15:43 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:15:44 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:15:44 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:15:44 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:15:44 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:15:44 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:15:44 | 
+INFO   | jvm 1    | 2009/12/21 17:15:44 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:15:44 | 
+INFO   | jvm 1    | 2009/12/21 17:15:44 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:15:44 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:15:44 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 83
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 83
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 81
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 81
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 84
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 84
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 82
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 82
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 85
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 85
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 86
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 86
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 87
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 87
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - id: 89
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:15:59 | - 
+INFO   | jvm 1    | 2009/12/21 17:15:59 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:15:59 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 89
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 90
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 90
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 88
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 88
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 91
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 91
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 92
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - id: 92
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - text: SUCCESS
+INFO   | jvm 1    | 2009/12/21 17:16:00 | - 
+INFO   | jvm 1    | 2009/12/21 17:16:00 | java.lang.NullPointerException
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.Calendar.setTime(Calendar.java:1032)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:785)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.SimpleDateFormat.format(SimpleDateFormat.java:778)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.text.DateFormat.format(DateFormat.java:314)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at br.com.simova.semaforo.jms.DataConfirmListener.onMessage(DataConfirmListener.java:31)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQMessageConsumer.dispatch(ActiveMQMessageConsumer.java:1088)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.dispatch(ActiveMQSessionExecutor.java:127)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.ActiveMQSessionExecutor.iterate(ActiveMQSessionExecutor.java:197)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner.runTask(PooledTaskRunner.java:122)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at org.apache.activemq.thread.PooledTaskRunner$1.run(PooledTaskRunner.java:43)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:650)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:675)
+INFO   | jvm 1    | 2009/12/21 17:16:00 | 	at java.lang.Thread.run(Thread.java:595)
+STATUS | wrapper  | 2009/12/21 17:19:36 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 17:19:36 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 17:19:36 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 17:19:36 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 17:19:37 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:19:37 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:19:37 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:19:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2009/12/21 17:19:41 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:19:41 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:19:42 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:19:42 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:19:42 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:19:42 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:19:42 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:19:42 | 
+INFO   | jvm 1    | 2009/12/21 17:19:42 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:19:42 | 
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:19:42 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:19:55 | - data: 21/12/2009 17:19:55
+STATUS | wrapper  | 2009/12/21 17:23:23 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 17:23:23 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 17:23:23 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 17:23:23 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 17:23:24 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:23:24 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:23:24 | CTRL-C trapped.  Forcing immediate shutdown.
+STATUS | wrapper  | 2009/12/21 17:23:24 | CTRL-C trapped.  Forcing immediate shutdown.
+FATAL  | wrapper  | 2009/12/21 17:23:24 | Critical error: wait for JVM process failed
+STATUS | wrapper  | 2009/12/21 17:23:43 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:23:43 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:23:43 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:23:43 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:23:43 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:23:43 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:23:43 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:23:43 | 
+INFO   | jvm 1    | 2009/12/21 17:23:43 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:23:43 | 
+INFO   | jvm 1    | 2009/12/21 17:23:43 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:23:43 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:23:43 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:23:44 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:23:44 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:23:44 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.332
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.352
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.355
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.359
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.363
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.367
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.377
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.385
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.388
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:23:58 | - data: 21/12/2009 17:23:58.394
+STATUS | wrapper  | 2009/12/21 17:25:39 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:25:39 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:25:39 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:25:39 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:25:39 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:25:39 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:25:39 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:25:39 | 
+INFO   | jvm 1    | 2009/12/21 17:25:39 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:25:39 | 
+INFO   | jvm 1    | 2009/12/21 17:25:39 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:25:39 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:25:39 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:25:40 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:25:40 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:25:40 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.192
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.197
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.202
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.205
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.215
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.219
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.223
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.232
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.237
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:25:48 | - data: 21/12/2009 17:25:48.268
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 80
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 80
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.579
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 81
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 81
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.585
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 82
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 82
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.589
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 83
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 83
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.593
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 84
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 84
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.603
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 85
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 85
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.607
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 86
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 86
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.612
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 87
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 87
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.618
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 88
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 88
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.620
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - id: 89
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - text: Mensagem 89
+INFO   | jvm 1    | 2009/12/21 17:27:01 | - data: 21/12/2009 17:27:01.624
+STATUS | wrapper  | 2009/12/21 17:28:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:28:21 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:28:21 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:28:21 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:28:21 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:28:21 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:28:21 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:28:21 | 
+INFO   | jvm 1    | 2009/12/21 17:28:21 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:28:21 | 
+INFO   | jvm 1    | 2009/12/21 17:28:21 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:28:21 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:28:21 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:28:21 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:28:21 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:28:22 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.650
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.666
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.673
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.687
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.645
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.697
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.653
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.670
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.683
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:28:34 | - data: 21/12/2009 17:28:34.691
+STATUS | wrapper  | 2009/12/21 17:30:03 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:30:03 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:30:03 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:30:03 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:30:03 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:30:03 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:30:03 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:30:03 | 
+INFO   | jvm 1    | 2009/12/21 17:30:03 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:30:03 | 
+INFO   | jvm 1    | 2009/12/21 17:30:03 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:30:03 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:30:03 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:30:04 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:30:04 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:30:04 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.689
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.705
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.708
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.711
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.715
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.721
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.725
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.732
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.736
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:30:10 | - data: 21/12/2009 17:30:10.740
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.760
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.766
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.773
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.781
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.785
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.793
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.796
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.802
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.805
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:31:12 | - data: 21/12/2009 17:31:12.810
+STATUS | wrapper  | 2009/12/21 17:31:33 | --> Wrapper Started as Console
+STATUS | wrapper  | 2009/12/21 17:31:33 | Launching a JVM...
+INFO   | jvm 1    | 2009/12/21 17:31:33 | WARNING - The Wrapper jar file currently in use is version "3.1.2"
+INFO   | jvm 1    | 2009/12/21 17:31:33 |           while the version of the native library is "3.2.1".
+INFO   | jvm 1    | 2009/12/21 17:31:33 |           The Wrapper may appear to work correctly but some features may
+INFO   | jvm 1    | 2009/12/21 17:31:33 |           not function correctly.  This configuration has not been tested
+INFO   | jvm 1    | 2009/12/21 17:31:33 |           and is not supported.
+INFO   | jvm 1    | 2009/12/21 17:31:33 | 
+INFO   | jvm 1    | 2009/12/21 17:31:33 | Wrapper (Version 3.1.2) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2009/12/21 17:31:33 | 
+INFO   | jvm 1    | 2009/12/21 17:31:33 | - Semáforo iniciado
+INFO   | jvm 1    | 2009/12/21 17:31:33 | - Carregando arquivo de configurações.
+INFO   | jvm 1    | 2009/12/21 17:31:33 | - ../conf/system.properties
+INFO   | jvm 1    | 2009/12/21 17:31:34 | - Successfully connected to tcp://localhost:61616
+INFO   | jvm 1    | 2009/12/21 17:31:34 | - JMS - Conexão realizada
+INFO   | jvm 1    | 2009/12/21 17:31:34 | - JMS - Listener registrado
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 0
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.944
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 1
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.948
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 2
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.952
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 3
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.956
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 4
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.971
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 5
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.974
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 6
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.977
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 7
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.984
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 8
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.988
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - text: Mensagem 9
+INFO   | jvm 1    | 2009/12/21 17:31:37 | - data: 21/12/2009 17:31:36.991
+INFO   | jvm 1    | 2009/12/21 17:32:07 | - id: 0
+INFO   | jvm 1    | 2009/12/21 17:32:07 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:07 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:07 | - data: 21/12/2009 17:32:07.270
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 1
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.302
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 1
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 2
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.309
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 2
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 3
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.312
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 3
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 4
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.316
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 4
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 5
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.319
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - Nenhuma linha atualizada para o id 5
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - id: 6
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:08 | - data: 21/12/2009 17:32:07.324
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - Nenhuma linha atualizada para o id 6
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - id: 7
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:10 | - data: 21/12/2009 17:32:07.331
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - Nenhuma linha atualizada para o id 7
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - id: 8
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - data: 21/12/2009 17:32:07.335
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - Nenhuma linha atualizada para o id 8
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - id: 9
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - data: 21/12/2009 17:32:07.338
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - 0
+INFO   | jvm 1    | 2009/12/21 17:32:11 | - Nenhuma linha atualizada para o id 9
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 20
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:23.993
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 21
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:23.998
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 22
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.054
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 23
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.057
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 24
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.060
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 25
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.063
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 26
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.068
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 27
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.071
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 28
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.074
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - id: 29
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - obra: 39
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - text: READ
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - data: 21/12/2009 17:32:24.077
+INFO   | jvm 1    | 2009/12/21 17:32:24 | - 1
+STATUS | wrapper  | 2009/12/21 17:39:17 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2009/12/21 17:39:17 | - Semáforo finalizado
+STATUS | wrapper  | 2009/12/21 17:39:17 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2009/12/21 17:39:17 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2009/12/21 17:39:17 | <-- Wrapper Stopped

@@ -1,0 +1,18 @@
+# Set root category priority to INFO and its only appender to CONSOLE.
+#log4j.rootCategory=debug, SYNC, CONSOLE
+log4j.rootCategory=debug, SYNC,CONSOLE
+
+
+# CONSOLE is set to be a ConsoleAppender using a PatternLayout.
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+log4j.appender.CONSOLE.Threshold=info
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+log4j.appender.CONSOLE.layout.ConversionPattern=- %m%n
+
+
+log4j.appender.SYNC=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.SYNC.DatePattern='.'yyyy-MM-dd-a'.log'
+log4j.appender.SYNC.Append=true
+log4j.appender.SYNC.File=c:\\logs\\SyncMO.1.00.log
+log4j.appender.SYNC.layout=org.apache.log4j.PatternLayout
+log4j.appender.SYNC.layout.ConversionPattern=%d{dd/MM/yyyy HH:mm:ss,SSS} %5p %C[1]:%L - %m%n
